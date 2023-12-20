@@ -18,7 +18,7 @@ public class playerScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Player player = other.GetComponent<player>();
+        Player player = other.GetComponent<Player>();
 
         player.TakeDamage(playerDamage);
     }
